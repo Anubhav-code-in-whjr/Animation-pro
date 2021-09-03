@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>
+Animation Type Project
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>
+THE FAMILY BOOK
+</h1>
+<img src = "https://images-na.ssl-images-amazon.com/images/I/519EK1CK07L._SY473_BO1,204,203,200_.jpg" >
+<h1 id="name" >
+
+</h1>
+<button onclick="update()">
+Next
+</button>
+<script>
+var images = [""];
+var names = ["Anubhav Mondal", "Bula Mondal", "Ananta Mondal"];
+var array_name = [""];
+var update_images= [images]
+function update() {
+    var array_value = [""];
+    var updated_names = [names];
+    for(i=0; i<names.length; i++)
+    array_name = names[i] ;
+    console.log(names[i]);
+    console.log(array_name)
+    document.getElementById("name").innerHTML = array_name;}
+    </script>  
+</body>
+</html>
